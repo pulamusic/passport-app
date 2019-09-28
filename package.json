@@ -2,10 +2,24 @@
   "name": "passport-app",
   "version": "1.0.0",
   "description": "This repository holds the code for a [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) [YouTube video on Passport authentication](https://youtu.be/6FOq4cUdH8k).",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Jim Carroll",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.16.2",
+    "mongoose": "^5.7.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
 }
