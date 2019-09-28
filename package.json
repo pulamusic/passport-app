@@ -1,0 +1,11 @@
+{
+  "name": "passport-app",
+  "version": "1.0.0",
+  "description": "This repository holds the code for a [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) [YouTube video on Passport authentication](https://youtu.be/6FOq4cUdH8k).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jim Carroll",
+  "license": "ISC"
+}
