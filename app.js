@@ -11,6 +11,7 @@ app.set('view engine', 'ejs')
 app.use('/', require('./routes/index.js'))
 app.use('/users', require('./routes/users.js'))
 
+// setup port
 const PORT = process.env.PORT || 5000
 
 app.listen(PORT, console.log(`Server running on port ${PORT}.`))
