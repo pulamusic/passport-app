@@ -9,6 +9,8 @@ This repository holds the code for a [Traversy Media](https://www.youtube.com/ch
 * (2019-09-30) The page is not rendering as if it is HTML, though. I'll need to sort this out.
 * (2019-10-02) Got it. Moving on.
 
+
 ---
 
 [`passport-auth` database](https://cloud.mongodb.com/v2/5d8f614dc56c9839eee37609#clusters)
+* (2019-10-03) Can't login to online database
