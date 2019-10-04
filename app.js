@@ -2,6 +2,12 @@ const express = require('express')
 const expressLayouts = require('express-ejs-layouts')
 const mongoose = require('mongoose')
 
+// const option = {
+//     socketTimeoutMS: 30000,
+//     keepAlive: true,
+//     reconnectTries: 30000
+// }
+
 const app = express()
 
 // DB config

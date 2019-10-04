@@ -14,3 +14,4 @@ This repository holds the code for a [Traversy Media](https://www.youtube.com/ch
 
 [`passport-auth` database](https://cloud.mongodb.com/v2/5d8f614dc56c9839eee37609#clusters)
 * (2019-10-03) Can't login to online database
+* Check out this [Stack Overflow issue](https://stackoverflow.com/questions/55683545/mongonetworkerror-connection-4-to-localhost27017-timed-out?noredirect=1&lq=1) for some ideas.
